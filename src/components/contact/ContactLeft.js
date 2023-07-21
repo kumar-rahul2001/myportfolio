@@ -49,7 +49,11 @@ const ContactLeft = () => {
             </a>
           </span>
           <span className="bannerIcon">
-            <a href="rahulkumar20010702@gmail.com">
+            <a
+              href="mailto:rahulkumar20010702@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <SiGmail />
             </a>
           </span>
