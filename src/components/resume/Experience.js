@@ -24,15 +24,15 @@ const Experience = () => {
           <ResumeCard
             title="Web Developer"
             subTitle="React Developer Team"
-            // result="USA"
+            result="Patna"
             des="Work on some React Projects with my Friends."
           />
-          {/* <ResumeCard
-            title="Data Analyst Intern"
-            subTitle="Xemi - (5/6/2023 - 5/9/2023)  [3 months]"
-            result="Mumbai, Maharashtra"
-            des="Writing Web Scrapping codes to extract required data for website’s database and training ML models. Mode of work: Hybrid."
-          /> */}
+          <ResumeCard
+            title="Wordpress Intern"
+            subTitle="Aadiv.ml - (5/6/2021 - 13/10/2022)"
+            result="Patna"
+            des="Web Developer: Specialize in developing WordPress websites, themes, and plugins, utilizing HTML, CSS, and JavaScript."
+          />
         </div>
       </div>
       <div>
@@ -40,27 +40,27 @@ const Experience = () => {
           <p className="text-sm text-designColor tracking-[4px]">
             2023 - Present
           </p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
+          <h2 className="text-4xl font-bold">Project Development Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          {/* <ResumeCard
-            title="ML Instructor"
-            subTitle="ABC Platform (20XX - 20XX)"
-            result="UK"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          /> */}
           <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="B E University (2023 - Present)"
-            // result="CANADA"
-            des="Codinator of the Coding Society. guided student and help them to solve difficulties in developing ReactJS and NextJS Projects"
+            title="StuDoc"
+            subTitle="In Progress..."
+            // result="UK"
+            des="StuDoc is a website made using NextJS and ReactJS from where you can Downloads all Kind of Study Material Related to BEU"
           />
-          {/* <ResumeCard
-            title="App Developer"
-            subTitle="ABC Company (20XX - 20XX)"
-            result="India"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          /> */}
+          <ResumeCard
+            title="Promptopis"
+            subTitle="Completed"
+            // result="CANADA"
+            des="Developed using NextJS. You can Login using your google account and create a Prompt"
+          />
+          <ResumeCard
+            title="Natours API"
+            subTitle="Completed (2022 - 2023)"
+            // result="India"
+            des="This website is Developed using NodeJs, ExpressJS, MongoDB, PUG, Javascript, Where You can Login, Signup, Create, Rename, Update and Delete Tour. You Can also give rating and reviews to a tour and Manage your profile."
+          />
         </div>
       </div>
     </motion.div>

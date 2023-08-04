@@ -47,23 +47,23 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title=" The Complete 2023 Web Development Bootcamp By Jonas Schemedtmann"
-            subTitle="Udemy - (01/01/2023 - 20/03/2023) [3 months]"
+            title=" Learned NodeJS, ExpressJS & MongoDB By Jonas Schemedtmann"
+            subTitle="Udemy"
             result="Online"
-            des="Learnt MERN stack and made various project using the skills in this course. Check out my Github for project info !"
+            des="Made various project using the skills in this course (Like Natours API). Check out my Github for project info !"
           />
           <ResumeCard
-            title=" Machine Learning in Python"
-            subTitle="Udemy - (01/04/2023 - 28/06/2023) [3 months]"
+            title=" Learned React by Maximilian Schwarzmüller"
+            subTitle="Udemy"
             result="Online"
-            des="A popular and trending technology in modern days. Completed few projects while learning the course by Jose Portilla"
+            des="Build Many Applications UIs while learning this React Course"
           />
-          {/* <ResumeCard
-            title="Neo4j"
-            subTitle="GRAPHACADEMY - (Issued on 4th November 2022)"
+          <ResumeCard
+            title="JavaScript By Jonas Schemedtmann"
+            subTitle="Udemy"
             result="Online"
-            des=" Learned basics of Neo4j - a database management system "
-          /> */}
+            des="Learned and Implemented all the javascript concepts from basic to advance while taking this course."
+          />
         </div>
       </div>
     </motion.div>

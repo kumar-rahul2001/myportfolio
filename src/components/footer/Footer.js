@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGithub, SiGmail } from "react-icons/si";
 import { logo } from "../../assets/index";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -86,36 +87,54 @@ const Footer = () => {
       </div>
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
-          RESOURCES
+          Projects
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Authentication
+              <a
+                href="https://studoc.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                StuDoc
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              System Status
+              <a
+                href="https://promptopia-lilac-tau.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Promptopia
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Terms of Service
+              <a
+                href="https://d2dexpensetracker.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Expense Tracker
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Pricing
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Over Right
+              <a
+                href="https://wordtextutils.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TextUtils
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
@@ -123,36 +142,66 @@ const Footer = () => {
       </div>
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
-          DEVELOPERS
+          Follow Me On
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Documentation
+              <a
+                href="https://facebook.com/itisrealrahul"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Authentication
+              <a
+                href="https://instagram.com/itstherealrahul"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              API Reference
+              <a
+                href="https://twitter.com/itstherealrahul"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Support
+              <a
+                href="https://www.linkedin.com/in/kumar-rahul2001/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkedin
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Open Source
+              <a
+                href="https://github.com/kumar-rahul2001/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
