@@ -1,6 +1,8 @@
 import { SiNextdotjs } from "react-icons/si";
 import { RiReactjsFill } from "react-icons/ri";
 import { FaNode } from "react-icons/fa";
+import { SiDjango } from "react-icons/si";
+// import { DiDjango } from "react-icons/di";
 import { SiProgress } from "react-icons/si";
 import { FaMobileAlt } from "react-icons/fa";
 
@@ -26,18 +28,24 @@ export const featuresData = [
   {
     id: 3,
     icon: <FaNode />,
-    title: "Backend Development",
+    title: "NodeJS Backend Development",
     des: "API with NodeJS, MongoDB, & ExpressJS",
   },
   {
     id: 4,
+    icon: <SiDjango />,
+    title: "Django Backend Development",
+    des: "Creating Smooth Websites: Using Django's Backend Magic & MySQL to Enhance Frontend Awesomeness",
+  },
+  {
+    id: 5,
     icon: <SiProgress />,
     title: "SEO Optimisation",
     des: "Rank Your website with react framework NextJS",
   },
 
   {
-    id: 5,
+    id: 6,
     icon: <FaMobileAlt />,
     title: "App Development",
     des: "React Native, Will learn this soon in near future !",
